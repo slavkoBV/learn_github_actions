@@ -10,3 +10,7 @@ authors = [
     { name = "Slav. B.", email = "slav_b@ukr.net" }
 ]
 requires-python = ">=3.10"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["my_app*"]
