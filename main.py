@@ -7,8 +7,6 @@ def exchange_coins(cash: int) -> dict:
             coins[i] = res
         cash %= i
     return coins
-
-
 if __name__ == '__main__':
     initial_cash = 1000
     result = exchange_coins(initial_cash)
